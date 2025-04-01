@@ -1,0 +1,88 @@
+body {
+  width: 640px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.form-group {
+  display: flex;
+}
+
+input[type='text'] {
+  padding: 4px;
+  margin: 4px;
+}
+
+label {
+  font-size: medium;
+  margin-right: 8px;
+}
+
+fieldset {
+  border-radius: 4px;
+}
+
+fieldset.yt {
+  border: 2px solid red;
+  color: red;
+}
+
+legend {
+  font-size: medium;
+}
+
+.blacklist {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.blacklist-item {
+  display: flex;
+  margin: 4px;
+  border: 1px solid red;
+  padding: 4px;
+  border-radius: 16px;
+}
+
+.blacklist-item span {
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+button#add {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 4px;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 4px;
+  width: 140px;
+  cursor: pointer;
+}
+
+button#add:hover {
+  background-color: rgb(209, 0, 0);
+}
+
+button.channel-name {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+button.delete {
+  border-radius: 50%;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+select {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+}
