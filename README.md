@@ -1,4 +1,4 @@
-# YT Blocker
+# <img src="/public/icons/icon.png" width="32px" height="32px"> YT Blocker
 
 Its a browser extension that blocks viewing selected channels on youtube.
 
